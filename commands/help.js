@@ -15,7 +15,7 @@ module.exports = {
         const Field3 = 'Ping: `' + `${client.ws.ping}MS!` + '`'
         const msg = await message.channel.send(new MessageEmbed()
             .setDescription(`💬 | Check Your DM's`)
-            .setColor('RANDOM')
+            .setColor('#5afd07')
         ).catch(err => {
             console.log(err)
         })
@@ -23,12 +23,7 @@ module.exports = {
         if(!args[0]) {
             message.author.send(new MessageEmbed()
                 .setTitle(`${message.author.username}'s Help`)
-                .setDescription('Deku Bot originaly was created as a bot called `U w U bot` and now it is called deku bot. Deku bot was created because I hated Mee6 because it dident allow me to add two youtube channels uploads at once without paying £7.99 a month and I dident like that so I built this bot. <@518754382075133953>')
-                .addField(':desktop: | Bot Infomation', 'Infomation about the bot!')
-                .addField(`${Field3}`, `PING!`, true)
-                .addField(`${Field}`, 'RLY', true)
-                .addField(`${Field2}`, 'WOW', true)
-                .addField('PRIMARY COMMANDS', 'Commands that are used for pure fun')
+                .setDescription(`Hello and welcome to the help section of the YEET Gamers discord bot! Here you can find all of the commands and what they do! If you have any questions about the bot do y!yeet and join the first server and ask for help there! \n**__credits__**\n This bot was coded by: <@683276659511918593>! \n The the cost for hosting the bot is is payed by: <@651357031256686623>! \n The owner is: <@707597076019806248>!' + `\n **__💻|Bot stuff:__**\n **ping:**  \`${client.ws.ping}\` \n **version:** `+' ``0.1.1`` '+`\n **servers:**  \`${client.guilds.cache.size} Servers\``+`\n **__🤖|commands__** `)
                 .addField('`Prefix:`', `The Prefix is the ${client.prefix}`, true)
                 .addField('`economy:`', 'Economy commands help', true)
                 .addField('`hourly:`', 'Get money from economy every hour', true)
@@ -42,7 +37,7 @@ module.exports = {
                 .addField('`modmail:`', 'New Modmail feature for moderation', true)
                 .addField('`rank:`', 'ALL NEW LEVELING SYSTEM WITH A RANK CARD', true)
                 .addField('`lb:`', 'Leaderboard command for the all new Rank command', true)
-                .setColor('RANDOM')
+                .setColor('#00ffe8')
             ).catch(err => {
                 console.log(err)
             })
@@ -58,8 +53,8 @@ module.exports = {
                     .addField('`say:`', 'Say a message', true)
                     .addField('`modmail:`', 'New Modmail feature for moderation', true)
                     .addField(`\`sm:\``, `a slow mode command it counts the numbers in seconds`, true)
-                    .addField('`sl:`', 'set someones level or yours needed perm is admin and manage messages')
-                    .setColor('RANDOM')
+                    .addField('`sl:`', 'set someones level or yours needed perm is admin and manage messages',true)
+                    .setColor('#00ffe8')
                 )
             }
             setTimeout(() => {
