@@ -3,8 +3,9 @@ const { MessageEmbed, Client, Collection, Activity } = require('discord.js')
 const mongoose = require("mongoose")
 const levels = require('discord-xp')
 const random = require("random")
-levels.setURL("mongodb+srv://archery:Combo2018@cluster0.5h5st.mongodb.net/data")
-mongoose.connect('mongodb+srv://archery:Combo2018@cluster0.5h5st.mongodb.net/data"', { useNewUrlParser: true, useUnifiedTopology: true })
+//mongodb+srv://archery:Combo2018@cluster0.5h5st.mongodb.net/data
+levels.setURL("mongodb+srv://Yeet:<password>@cluster0.i9vrh.mongodb.net/Data")
+mongoose.connect("mongodb+srv://Yeet:<password>@cluster0.i9vrh.mongodb.net/Data", { useNewUrlParser: true, useUnifiedTopology: true })
 console.log("Connected to Mongodb Database")
 class ModmailClient extends Client {
     constructor() {
