@@ -10,8 +10,6 @@ const enmap = require('enmap')
 const Random = require('random')
 const fs = require('fs')
 const db = require('quick.db')
-const mongo = require('./mongo')
-const { Mongoose } = require('mongoose')
 const WOKCommands = require('wokcommands')
 const eco = new enmap({
     name: 'Economy',
