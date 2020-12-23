@@ -46,13 +46,6 @@ module.exports = {
             ).catch(err => {
                 console.log(err)
             })
-            message.author.send(new MessageEmbed()
-                .setTitle("Languages")
-                .addField('`en:`', 'this is the english language for translation', true)
-                .addField('`es:`', 'this is the spanish language for translation', true)
-                .addField('`fr:`', 'this is the french language for translation', true)
-                .setColor("RANDOM")
-            )
             if(message.member.hasPermission('MANAGE_GUILD' || 'BAN_MEMBERS' || 'KICK_MEMBERS' || 'DEAFEN_MEMBERS' || 'MANAGE_CHANNELS' || 'MANAGE_GUILD' || 'MANAGE_MESSAGES' || 'ADMINISTRATOR' || 'MUTE_MEMBERS')) {
                 message.author.send(new MessageEmbed()
                     .setTitle(`${message.author.username}'s Moderation commands for ${message.guild.name} Server!`)
