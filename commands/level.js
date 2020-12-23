@@ -2,7 +2,7 @@ const Client = require("../structure/client");
 const { MessageEmbed, ClientApplication, MessageAttachment } = require('discord.js');
 const { Message } = require('discord.js')
 const level = require("discord-xp")
-level.setURL("mongodb+srv://archery:Combo2018@cluster0.5h5st.mongodb.net/data")
+level.setURL("mongodb+srv://Yeet:yeet@cluster0.i9vrh.mongodb.net/Data")
 const canvacord = require("canvacord")
 module.exports = {
     name: "rank",
