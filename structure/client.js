@@ -25,7 +25,7 @@ class ModmailClient extends Client {
       /*
       constants
       */
-     this.prefix = "$"
+     this.prefix = "y!"
     }
     commandHandler(path) {
         this.fs.readdirSync(this.path.normalize(path)).map((f) => {
@@ -42,14 +42,14 @@ class ModmailClient extends Client {
         this.on('ready', async () => {
             console.log("I am online and at your service")
             this.user.setActivity({
-                name: `${this.guilds.cache.size} server | help`,
+                name: `${this.guilds.cache.size} server | y!help`,
                 type: "LISTENING"
             })
             
         })
         this.on('message', async message => {
             this.user.setActivity({
-                name: `${this.guilds.cache.size} server | help`,
+                name: `${this.guilds.cache.size} server | y!help`,
                 type: "LISTENING"
             })
             const args = message.content.slice(this.prefix.length).trim().split(/ +/g);
