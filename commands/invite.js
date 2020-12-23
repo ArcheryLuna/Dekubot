@@ -21,8 +21,9 @@ module.exports = {
         msg.delete({timeout: 20000})
         message.author.send(new MessageEmbed()
             .setTitle('`Invite your Deku Bot!`' + `${message.author.username}`)
-            .addField('`Deku Bot invite Link`', 'https://discord.com/api/oauth2/authorize?client_id=745977605626527752&permissions=8&scope=bot')
-            .addField('`Join The Support Server:`', 'https://discord.gg/ZEaFmbC')
+            .addField('`yeet gamers Bot invite Link`', 'https://discord.com/api/oauth2/authorize?client_id=788686776881512468&permissions=8&scope=bot')
+            .addField('`Join The Support Server:`', 'https://discord.gg/2uMFrNvH4X')
+            .setFooter('Based off of deku bot')
             .setColor('RANDOM')
         )
     }
