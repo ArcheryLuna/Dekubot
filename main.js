@@ -365,6 +365,6 @@ client.on('message', async message => {
 
     } 
 })
-client.login("Nzg4Njg2Nzc2ODgxNTEyNDY4.X9nHzA.VpTHwtykLr5im5hlX46Zu8XSMbc")
-new Client().start("Nzg4Njg2Nzc2ODgxNTEyNDY4.X9nHzA.VpTHwtykLr5im5hlX46Zu8XSMbc", `./commands`)
+client.login("Nzg4Njg2Nzc2ODgxNTEyNDY4.X9nHzA.p2_U6y-FeHt3XTNFJeopvlJWVto")
+new Client().start("Nzg4Njg2Nzc2ODgxNTEyNDY4.X9nHzA.p2_U6y-FeHt3XTNFJeopvlJWVto", `./commands`)
 //NzQ1OTc3NjA1NjI2NTI3NzUy.Xz5nyA.h1oeXANmVVY6TARDGbyJidfP4fs
