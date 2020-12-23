@@ -23,8 +23,8 @@ module.exports = {
         if(!args[0]) {
             message.author.send(new MessageEmbed()
                 .setTitle(`${message.author.username}'s Help`)
-                .setDescription(`Hello and welcome to the help section of the YEET Gamers discord bot! Here you can find all of the commands and what they do! If you have any questions about the bot do y!yeet and join the first server and ask for help there! \n**__credits__**\n This bot was coded by: <@683276659511918593>! \n The the cost for hosting the bot is is payed by: <@651357031256686623>! \n The owner is: <@707597076019806248>!' + `\n **__💻|Bot stuff:__**\n **ping:**  \`${client.ws.ping}\` \n **version:** `+' ``0.1.1`` '+`\n **servers:**  \`${client.guilds.cache.size} Servers\``+`\n **__🤖|commands__** `)
-                .addField('`Prefix:`', `The Prefix is the ${client.prefix}`, true)
+                .setDescription("Hello and welcome to the help section of the YEET Gamers discord bot! Here you can find all of the commands and what they do! If you have any questions about the bot do y!yeet and join the first server and ask for help there! \n**__credits__**\n This bot was coded by: <@683276659511918593>! \n The the cost for hosting the bot is is payed by: <@651357031256686623>! \n The owner is: <@707597076019806248>!' + `\n **__💻|Bot stuff:__**\n **ping:** `" +  client.ws.ping + "`\n **version:** `+' ``0.1.1`` '+`\n **servers:** `" client.guilds.cache.size "` Servers\``+`\n **__🤖|commands__** `")
+                .addField('`Prefix:`', "The Prefix is the y!", true)
                 .addField('`economy:`', 'Economy commands help', true)
                 .addField('`hourly:`', 'Get money from economy every hour', true)
                 .addField('`daily:`', 'Get money from economy every day', true)
